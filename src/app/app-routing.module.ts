@@ -6,7 +6,8 @@ import { NovoComponent } from './componentes/novo/novo.component';
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'novo', component: NovoComponent }
+  { path: 'novo', component: NovoComponent },
+  { path: 'produtos', loadChildren: () => import('./features/produto/produto.module').then(m => m.ProdutoModule) }
 ];
 
 @NgModule({
