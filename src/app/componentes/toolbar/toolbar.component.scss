@@ -1,9 +1,3 @@
-
-
-.active {
-    background-color: rgb(70, 196, 70);
-}
-
 .example-spacer {
     flex: 1 1 auto;
 }
@@ -21,4 +15,16 @@ a {
     list-style: none;
     padding-right: 20px;
     color: #000;
+}
+
+a:active{
+    color: #fff;
+}
+
+a:active, a:hover {
+    color: lightgray;
+}
+
+.active {
+    color: #fff;
 }
