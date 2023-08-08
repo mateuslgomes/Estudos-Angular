@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ToolbarComponent } from './componentes/toolbar/toolbar.component';
+import { NovoComponent } from './componentes/novo/novo.component';
+import { HomeComponent } from './componentes/home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ToolbarComponent,
+    NovoComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
