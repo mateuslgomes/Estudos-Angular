@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MatTable, MatTableDataSource } from '@angular/material/table';
+import { HomeService } from 'src/app/components/services/home.service';
 
 export interface Ciente {
   nome: string;
@@ -59,10 +60,15 @@ export class HomeComponent {
 
   displayedColumns: string[] = ['nome', 'idade', 'sexo', 'salario'];
   dataSource !: MatTableDataSource<any>
-
+  
+  constructor(private homeService: HomeService) { }
+  
   ngOnInit(): void {
-    this.dataSource = new MatTableDataSource(this.clientes);
+    this.homeService.getClientes()
+    .subscribe(clientes => {
+      this.clientes = clientes;
+      this.dataSource= new MatTableDataSource(this.clientes);
+    })
   }
-
 
 }

@@ -11,6 +11,7 @@ import { MatToolbarModule } from '@angular/material/toolbar'
 import { MatIconModule } from '@angular/material/icon'
 import { MatTableModule } from '@angular/material/table'
 import { HttpClientModule } from '@angular/common/http';
+import { SexoPipe } from './pipes/sexo.pipe';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     ToolbarComponent,
     NovoComponent,
-    HomeComponent
+    HomeComponent,
+    SexoPipe
   ],
   imports: [
     BrowserModule,
