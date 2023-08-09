@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SexoPipe } from './pipes/sexo.pipe';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +30,7 @@ import { SexoPipe } from './pipes/sexo.pipe';
     MatToolbarModule,
     MatIconModule,
     MatTableModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

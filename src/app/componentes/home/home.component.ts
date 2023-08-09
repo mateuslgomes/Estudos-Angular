@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { MatTable, MatTableDataSource } from '@angular/material/table';
-import { HomeService } from 'src/app/components/services/home.service';
+import { HomeService } from 'src/app/componentes/services/home.service';
 
 export interface Ciente {
   nome: string;
@@ -67,7 +67,7 @@ export class HomeComponent {
     this.homeService.getClientes()
     .subscribe(clientes => {
       this.clientes = clientes;
-      this.dataSource= new MatTableDataSource(this.clientes);
+      this.dataSource= new MatTableDataSource(this.clientes)
     })
   }
 
