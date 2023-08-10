@@ -1,9 +1,9 @@
 export interface Produto {
-    id : number
+    id: number
     nome: string,
     descricao: string,
-    imagemUrl: string,
-    preco: number,
+    imagemUrl?: string,
+    preco: string,
     estoque: number;
 }
 

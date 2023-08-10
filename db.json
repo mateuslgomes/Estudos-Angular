@@ -10,19 +10,19 @@
     },
     {
       "id": 2,
-      "nome": "Mouse Gamer",
-      "descricao": "Mouse gamer RGB 1200dpi",
+      "nome": "Mouse Gamer (promocçao)",
+      "preco": "5912",
       "imagemUrl": "https://http2.mlstatic.com/D_NQ_NP_729141-MLA48735254117_012022-O.webp",
-      "preco": "59",
-      "estoque": 56
+      "estoque": 55569,
+      "descricao": "Mouse gamer RGB 1200dpi sad"
     },
     {
       "id": 3,
       "nome": "Monitor Ultra Wide",
-      "descricao": "Monitor Ultra Wide 29 polegadas IPS 144ms",
-      "imagemUrl": "https://m.media-amazon.com/images/I/51Ufkd4a13L._AC_SX679_.jpg",
-      "preco": "1699",
-      "estoque": 5
+      "preco": "dsadasdsad23",
+      "imagemUrl": "https://http2.mlstatic.com/D_NQ_NP_729141-MLA48735254117_012022-O.webp",
+      "estoque": 523,
+      "descricao": "Monitor Ultra Wide 29 "
     },
     {
       "id": 4,
@@ -32,70 +32,67 @@
       "preco": "5000",
       "estoque": 2
     }
-    
-],
-
-"clientes": [
-  {
-    "nome": "Maria Santos",
-    "sexo": "f",
-    "idade": 29,
-    "salario": 4000
-  },
-  {
-    "nome": "João Silva",
-    "sexo": "m",
-    "idade": 42,
-    "salario": 7000
-  },
-  {
-    "nome": "Ana Costa",
-    "sexo": "f",
-    "idade": 31,
-    "salario": 5500
-  },
-  {
-    "nome": "José Oliveira",
-    "sexo": "m",
-    "idade": 26,
-    "salario": 3500
-  },
-  {
-    "nome": "Paula Alves",
-    "sexo": "f",
-    "idade": 35,
-    "salario": 6000
-  },
-  {
-    "nome": "Carlos Rodrigues",
-    "sexo": "m",
-    "idade": 38,
-    "salario": 8000
-  },
-  {
-    "nome": "Beatriz Santos",
-    "sexo": "f",
-    "idade": 27,
-    "salario": 4500
-  },
-  {
-    "nome": "Rafaela Souza",
-    "sexo": "f",
-    "idade": 33,
-    "salario": 7000
-  },
-  {
-    "nome": "Lucas Almeida",
-    "sexo": "m",
-    "idade": 29,
-    "salario": 4200
-  },
-  {
-    "nome": "André Costa",
-    "sexo": "m",
-    "idade": 41,
-    "salario": 9000
-  }
-]
-
+  ],
+  "clientes": [
+    {
+      "nome": "Maria Santos",
+      "sexo": "f",
+      "idade": 29,
+      "salario": 4000
+    },
+    {
+      "nome": "João Silva",
+      "sexo": "m",
+      "idade": 42,
+      "salario": 7000
+    },
+    {
+      "nome": "Ana Costa",
+      "sexo": "f",
+      "idade": 31,
+      "salario": 5500
+    },
+    {
+      "nome": "José Oliveira",
+      "sexo": "m",
+      "idade": 26,
+      "salario": 3500
+    },
+    {
+      "nome": "Paula Alves",
+      "sexo": "f",
+      "idade": 35,
+      "salario": 6000
+    },
+    {
+      "nome": "Carlos Rodrigues",
+      "sexo": "m",
+      "idade": 38,
+      "salario": 8000
+    },
+    {
+      "nome": "Beatriz Santos",
+      "sexo": "f",
+      "idade": 27,
+      "salario": 4500
+    },
+    {
+      "nome": "Rafaela Souza",
+      "sexo": "f",
+      "idade": 33,
+      "salario": 7000
+    },
+    {
+      "nome": "Lucas Almeida",
+      "sexo": "m",
+      "idade": 29,
+      "salario": 4200
+    },
+    {
+      "nome": "André Costa",
+      "sexo": "m",
+      "idade": 41,
+      "salario": 9000
+    }
+  ]
 }
